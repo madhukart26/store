@@ -48,13 +48,13 @@
 }
 
 .progress-bar1 {
-  background: asset-url('ui_ball.png') 0 0 no-repeat;
+  background: asset-url('explosion_transparent.png') -194px -132px no-repeat;
   background-repeat: no-repeat;
   display: block;
   z-index: 99;
   position: absolute;
-  width: 63px;
-  height: 63px;
+ width: 63px;
+  height: 60px;
   left: 0px;
   top: 53px;
 }
