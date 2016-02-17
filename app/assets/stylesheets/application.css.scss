@@ -52,11 +52,21 @@
   background-repeat: no-repeat;
   display: block;
   z-index: 99;
-  position: absolute;
+  position: relative;
  width: 63px;
   height: 60px;
-  left: 0px;
+  left: -15px;
   top: 53px;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
 }
 
 // .progress {
